@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#Commands",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,8 +65,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -149,6 +148,7 @@
   },
   "active": "94c8e149be07ba36",
   "lastOpenFiles": [
+    "Pasted image 20240522223922.png",
     "README.md",
     "SQL/Commands.md",
     "SQL"
