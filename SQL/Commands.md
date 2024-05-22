@@ -14,8 +14,9 @@ TABLE1 JOIN_TYPE (optional) JOIN TABLE2 ON PARAMS;
 
 `(INNER) JOIN` - возвращает результаты пересечения двух таблиц по заданным параметрам.
 ```mermaid
-flowchart TB:
-	table
+flowchart TB
+	t(TABLE1)
+	style t fill:#0000,stroke:888,stroke-width:6px;
 ```
 ![[Pasted image 20240522223922.png]]
 *Используется по-умолчанию, при отсутсвии указания типа `JOIN`;*
