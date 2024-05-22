@@ -143,11 +143,14 @@
       "canvas:Создать новый холст": false,
       "daily-notes:Сегодняшняя заметка": false,
       "templates:Вставить шаблон": false,
-      "command-palette:Открыть палитру команд": false
+      "command-palette:Открыть палитру команд": false,
+      "obsidian-day-and-night:Toggle Theme": false
     }
   },
   "active": "94c8e149be07ba36",
   "lastOpenFiles": [
+    "Pasted image 20240522224515.png",
+    "Pasted image 20240522224510.png",
     "Pasted image 20240522223922.png",
     "SQL/Commands.md",
     "Pasted image 20240522224028.png",
