@@ -11,9 +11,11 @@
             "id": "94c8e149be07ba36",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "SQL/Pasted image 20240522223922.png"
+                "file": "SQL/Commands.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -83,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SQL/Pasted image 20240522223922.png",
+                "file": "SQL/Commands.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SQL/Pasted image 20240522223922.png",
+                "file": "SQL/Commands.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SQL/Pasted image 20240522223922.png"
+                "file": "SQL/Commands.md"
               }
             }
           }
@@ -145,8 +147,9 @@
       "obsidian-day-and-night:Toggle Theme": false
     }
   },
-  "active": "97a5960dcc17e0ab",
+  "active": "94c8e149be07ba36",
   "lastOpenFiles": [
+    "().md",
     "SQL/Commands.md",
     "SQL/Pasted image 20240522223922.png",
     "SQL/Pasted image 20240522224515.png",
