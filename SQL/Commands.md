@@ -17,5 +17,5 @@ TABLE1 JOIN_TYPE (optional) JOIN TABLE2 ON PARAMS;
 *Используется по-умолчанию, при отсутсвии указания типа `JOIN`;*
 `FULL (OUTER) JOIN` - возвращет все результаты: первой таблицы, второй таблицы и результаты перечисления;
 ![[Pasted image 20240522224028.png]]
-`LEFT (OUTER) JOIN` - 
+`LEFT (OUTER) JOIN` - возвращает резултаты пересечения и 
 `RIGHT (OUTER) JOIN` - 
