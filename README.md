@@ -1,3 +1,3 @@
 # Obsidian-My-knowledges
 
-My knowledges as obsidian vault
+My knowledges as obsidian vault 
