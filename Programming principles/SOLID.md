@@ -53,6 +53,7 @@ public implicit extension HtmlElementExtension for HtmlElement
 public class HtmlElement
 {
 	public string Tag { get; init; }
+	public Icon Icon { get; init; }
 	...
 }
 ``` 
