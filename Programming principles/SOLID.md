@@ -37,23 +37,24 @@ public class HtmlElement
 }
 public implicit extension HtmlElementExtension for HtmlElement
 {
-	public string Tag
-		=> this.Type switch
-		{
-			Division => "div",
-			...
-			_ => ""
-		}
-	public Icon Icon
-		=> this.Type switch
-		{
-			Division => Icons.Division,
-			Image => Icons.Image,
-			Document => Icons.Document,
-			_ => Icons.Custom
-		}
+	public string Tag => this.Type switch 
+	{
+		Division => "div",
+		...,
+		_ => ""
+	}
+	public Icon Icon => this.Type switch
+	{
+		Division => Icons.Division,...,
+		_ => Icons.Custom
+	}
 }
-// Чтобы не нарушать
+// Чтобы не нарушать принцип открытости/закрытости можно видоизменить класс `HtmlElement`, используя свойства `Tag` и `Icon`, вместо `Type`
+public class HtmlElement
+{
+	public HtmnElementType Type { get; init; };
+	...
+}
 ``` 
 ## L
 Liskov substitution principle - Принцип подстановки Лисков.
