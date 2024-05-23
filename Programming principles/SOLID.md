@@ -46,10 +46,21 @@ public class HtmlElement(HtmlElementType type,
 }
 public implicit extension HtmlElementExtension for HtmlElement
 {
-	public string Name
+	public string Tag
 		=> this.Type switch
 		{
-			Custom => "Custon"
+			Division => "div",
+			Image => "img",
+			Document => "hmtl",
+			_ => ""
+		}
+	public Icon Icon
+		=> this.Type switch
+		{
+			Division => Icons.Divi,
+			Image => "img",
+			Document => "hmtl",
+			_ => ""
 		}
 }
 ``` 
