@@ -36,9 +36,17 @@ public enum HtmlElementType
 	Image,
 	Document
 }
-public class HtmlElement(HtmlElementType type, Dictionary<string, string> attributes, IEnumerable<HtmlElement> children)
+public class HtmlElement(HtmlElementType type,
+	Dictionary<string, string> attributes,
+	IEnumerable<HtmlElement> children)
 {
-	public HtmnElementType
+	public HtmnElementType Type { get; init; } = type;
+	public Dictionary<string, string> Attributes { get; init; } = attributes;
+	public IEnumerable<HtmlElement> Children { get; init; } = children;
+}
+public static HtmlElementExtensions
+{
+	public static 
 }
 ``` 
 ## L
