@@ -44,9 +44,13 @@ public class HtmlElement(HtmlElementType type,
 	public Dictionary<string, string> Attributes { get; init; } = attributes;
 	public IEnumerable<HtmlElement> Children { get; init; } = children;
 }
-public implicit extension HtmlElementExtension
+public implicit extension HtmlElementExtension for HtmlElement
 {
-	public static Get
+	public string Name
+		=> this.Type switch
+		{
+			Custom => "Custon"
+		}
 }
 ``` 
 ## L
