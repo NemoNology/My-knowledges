@@ -67,7 +67,16 @@ Liskov substitution principle - Принцип подстановки Барба
 ## I
 Interface segregation principle - Принцип разделения интерфейса.
 > много интерфейсов, специально предназначенных для клиентов, лучше, чем один интерфейс общего назначения.
-
+### Пример
+```csharp
+// 
+public interface Shape {
+    drawCircle();
+    drawSquare();
+    drawRectangle();
+    drawTriangle();
+}
+```
 ## D
 Dependency inversion principle - Принцип инверсии зависимостей.
 > Зависимость на Абстракциях. Нет зависимости на что-то конкретное
