@@ -102,7 +102,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "0842cef98f04fe43",
@@ -180,7 +181,7 @@
       "obsidian-day-and-night:Toggle Theme": false
     }
   },
-  "active": "d830d5f50bd21beb",
+  "active": "b9d759621fa14c7a",
   "lastOpenFiles": [
     "SQL/Commands.md",
     "_images/Pasted image 20240522223922.png",
