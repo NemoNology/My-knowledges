@@ -10,19 +10,13 @@ Single responsibility principle - Принцип единственной отв
 public class Animal(string name)
 {
 	public string Name { get; set; } = name;
-	public void AddToDb(Db bd)
-	{
-		// ...
-	}
+	public void AddToDb(Db bd) { // ... }
 }
 // Чтобы не нарушать принцип единственной ответственности, стоит переменести метод `AddToDB` в другой класс
 public class DbController(Db db)
 {
 	public Db DB { get; set; } = db;
-	public void AddObjectToDb(object obj)
-	{
-		// ...
-	}
+	public void AddObjectToDb(object obj) { // ... }
 }
 ```
 ## O
