@@ -28,7 +28,18 @@ Open-closed principle - Принцип открытости/закрытости
 ### Пример
 
 ```csharp
-
+// Нарушение принципа:
+public enum HtmlElementType
+{
+	Custom,
+	Division,
+	Image,
+	Document
+}
+public class HtmlElement
+{
+	
+}
 ```
 ## L
 Liskov substitution principle - Принцип подстановки Лисков.
