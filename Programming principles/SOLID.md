@@ -7,12 +7,16 @@ Single responsibility principle - Принцип единственной отв
 
 ```csharp
 // Нарушение принципа
-class Animal
+public class Animal(string name)
 {
-	public string Name { get; set; }
-
-	public Animal(string name) => Name = name;
+	public string Name { get; set; } = name;
+	public void AddToDB(DB bd)
+	{
+		// ...
+	}
 }
+// Ниже не
+
 ```
 ## O
 Open-closed principle - Принцип открытости/закрытости.
