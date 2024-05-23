@@ -44,9 +44,9 @@ public class HtmlElement(HtmlElementType type,
 	public Dictionary<string, string> Attributes { get; init; } = attributes;
 	public IEnumerable<HtmlElement> Children { get; init; } = children;
 }
-public static HtmlElementExtensions
+public implicit extension HtmlElementExtension
 {
-	public static 
+	public static Get
 }
 ``` 
 ## L
