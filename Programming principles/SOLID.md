@@ -76,53 +76,52 @@ Interface segregation principle - Принцип разделения интер
 // Нарушение принципа: в случае реализации интерфейса `MegaPrinter`, реализующим классам придётся реализовывать все методы интерфейса, ключая неиспользуемые классом методы.
 public interface MegaPrinter
 {
-    string Scan();
-    void Fax(string data);
-    void Print(string data);
+    obj Scan();
+    void Fax(FaxEndPoint endPoint, obj data);
+    void Print(obj data);
 }
 
 // Using only `Scan` method
 public class Scaner: MegaPrinter 
 {
-	string Scan() { ... }
-    void Fax(string data) { ... }
-    void Print(string data) { ... }
+	obj Scan() { ... }
+    void Fax(FaxEndPoint endPoint, obj data) { ... }
+    void Print(obj data) { ... }
 }
-
-...
 
 // Using only `Print` method
 public class Printer: MegaPrinter 
 {
-	string Scan() { ... }
-    void Fax(string data) { ... }
-    void Print(string data) { ... }
+	obj Scan() { ... }
+    void Fax(FaxEndPoint endPoint, obj data) { ... }
+    void Print(obj data) { ... }
 }
 
 // Чтобы не нарушать принцип разделения интерфейса, необходимо не перегружать интерфейсы и соблюдать принцип единственной ответственности и абстракцию.
 public interface Scaner
 {
-	string Scan();
+	obj Scan();
 }
 
 public interface Faxer
 {
-	void Fax(FaxEndPointstring data);
+	void Fax(FaxEndPoint endPoint, obj data);
 }
 
 public interface Printer
 {
-    void Print(string data);
+    void Print(obj data);
 }
 
-public class Circle: Shape
+public class TextScaner: Scaner 
 {
-	void DrawShape() { ... };
+	obj Scan() { ... }
 }
 
-public class Triangle: Shape
+// Using only `Print` method
+public class TextFaxer: Faxer 
 {
-	void DrawShape() { ... };
+	void Fax(FaxEndPoint endPoint, obj data) { ... }
 }
 ```
 ## D
