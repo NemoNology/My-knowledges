@@ -124,7 +124,19 @@ Dependency inversion principle - Принцип инверсии зависим�
 ### Пример
 
 ```csharp
-public class FastEn
+// Нарушение принципа: 
+public class FastEngine
+{
+	public int Speed { get; init; } = 42;
+	public void Start() { ... }
+	public void Stop() { ... }
+}
+
+public class Car
+{
+	public FastEngine { get; init; } = new();
+	...
+}
 ```
 
 # Ссылки
