@@ -6,8 +6,13 @@ Single responsibility principle - Принцип единственной отв
 ### Пример
 
 ```csharp
-// 
+// Нарушение принципа
 class Animal
+{
+	public string Name { get; set; }
+
+	public Animal(string name) => Name = name;
+}
 ```
 ## O
 Open-closed principle - Принцип открытости/закрытости.
