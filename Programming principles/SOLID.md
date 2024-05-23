@@ -36,11 +36,11 @@ public enum HtmlElementType
 	Image,
 	Document
 }
-public class HtmlElement
+public class HtmlElement(HtmlElementType type, Dictionary<string, string> attributes, IEnumerable<HtmlElement> children)
 {
-	
+	public HtmnElementType
 }
-```
+``` 
 ## L
 Liskov substitution principle - Принцип подстановки Лисков.
 > Функции, которые используют базовый тип, должны иметь возможность использовать подтипы базового типа не зная об этом.
