@@ -6,7 +6,7 @@
 ## Синтаксис
 
 ```sql
-TABLE1 JOIN_TYPE (optional) JOIN TABLE2 ON PARAMS;
+TABLE1 JOIN_TYPE (%%  %%if not provided => TYPE = INNER) JOIN TABLE2 ON PARAMS;
 ```
 
 ## Типы `JOIN`
