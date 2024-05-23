@@ -70,13 +70,18 @@ Interface segregation principle - Принцип разделения интер
 ### Пример
 ```csharp
 // Нарушение принципа: в случае 
-public interface Shape {
-    drawCircle();
-    drawSquare();
-    drawRectangle();
-    drawTriangle();
+public interface Shape
+{
+    void DrawCircle();
+    ...
+    void DrawTriangle();
 }
-public 
+public class Circle: Shape 
+{
+	void DrawCircle() { ... }
+	...
+	void DrawTriangle() { ... }
+}
 ```
 ## D
 Dependency inversion principle - Принцип инверсии зависимостей.
