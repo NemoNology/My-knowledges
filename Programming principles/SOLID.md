@@ -10,13 +10,20 @@ Single responsibility principle - Принцип единственной отв
 public class Animal(string name)
 {
 	public string Name { get; set; } = name;
-	public void AddToDB(DB bd)
+	public void AddToDb(Db bd)
 	{
 		// ...
 	}
 }
-// Чтобы не нарушать принцип единственной ответственности, стоит отделить метод `AddToDB`
-
+// Чтобы не нарушать принцип единственной ответственности, стоит отделить метод `AddToDB` в другой класс
+public class DbController(Db db)
+{
+	public Db DB { get; set; } = db;
+	public void AddObjectToDb(object obj)
+	{
+		// ...
+	}
+}
 ```
 ## O
 Open-closed principle - Принцип открытости/закрытости.
