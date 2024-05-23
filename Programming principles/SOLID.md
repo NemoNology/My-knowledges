@@ -73,24 +73,24 @@ Interface segregation principle - Принцип разделения интер
 > много интерфейсов, специально предназначенных для клиентов, лучше, чем один интерфейс общего назначения.
 ### Пример
 ```csharp
-// Нарушение принципа: в случае реализации интерфейса `Shape`, реализующим классам придётся реализовывать все методы интерфейса.
-public interface Shape
+// Нарушение принципа: в случае реализации интерфейса `MegaPrinter`, реализующим классам придётся реализовывать все методы интерфейса, ключая неиспользуемые классом методы.
+public interface MegaPrinter
 {
-    void DrawCircle();
-    ...
-    void DrawTriangle();
+    string Scan();
+    void Fax(string data);
+    void Print(string data);
 }
 
-public class Circle: Shape 
+public class Scaner: MegaPrinter 
 {
-	public void DrawCircle() { ... }
-	...
-	public void DrawTriangle() { ... }
+	string Scan() { ... }
+    void Fax(string data) { ... }
+    void Print(string data) { ... }
 }
 
 ...
 
-public class Triangle: Shape 
+public class OnlyPrinter: Shape 
 {
 	public void DrawCircle() { ... }
 	...
