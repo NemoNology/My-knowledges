@@ -12,6 +12,7 @@ public class Animal(string name)
 	public string Name { get; set; } = name;
 	public void AddToDb(Db bd) { ... }
 }
+
 // Чтобы не нарушать принцип единственной ответственности, стоит переменести метод `AddToDB` в другой класс
 public class DbController(Db db)
 {
@@ -30,11 +31,13 @@ Open-closed principle - Принцип открытости/закрытости
 ```csharp
 // Нарушение принципа: если мы захотим добавить новый HtmlElementType, то придётся модифицировать `HtmlElementType` и свойства `Tag` `Icon` в HtmlElementExtension;
 public enum HtmlElementType { ... }
+
 public class HtmlElement
 {
 	public HtmnElementType Type { get; init; }
 	...
 }
+
 public implicit extension HtmlElementExtension for HtmlElement
 {
 	public string Tag => this.Type switch 
@@ -49,6 +52,7 @@ public implicit extension HtmlElementExtension for HtmlElement
 		_ => Icons.Custom
 	}
 }
+
 // Чтобы не нарушать принцип открытости/закрытости можно видоизменить класс `HtmlElement`, используя свойства `Tag` и `Icon`, вместо `Type`
 public class HtmlElement
 {
@@ -69,25 +73,45 @@ Interface segregation principle - Принцип разделения интер
 > много интерфейсов, специально предназначенных для клиентов, лучше, чем один интерфейс общего назначения.
 ### Пример
 ```csharp
-// Нарушение принципа: в случае реализации интерфейса `Shape` `Circle`, классу придётся реализовывать все методы интерфейса.
+// Нарушение принципа: в случае реализации интерфейса `Shape`, реализующим классам придётся реализовывать все методы интерфейса.
 public interface Shape
 {
     void DrawCircle();
     ...
     void DrawTriangle();
 }
+
 public class Circle: Shape 
 {
 	public void DrawCircle() { ... }
 	...
 	public void DrawTriangle() { ... }
 }
+
+...
+
+public class Triangle: Shape 
+{
+	public void DrawCircle() { ... }
+	...
+	public void DrawTriangle() { ... }
+}
+
 // Чтобы не нарушать принцип разделения интерфейса, необходимо не перегружать интерфейсы и соблюдать принцип единственной ответственности и абстракцию.
 public interface Shape
 {
 	void DrawShape();
 }
-public 
+
+public class Circle: Shape
+{
+	void DrawShape() { ... };
+}
+
+public class Triangle: Shape
+{
+	void DrawShape() { ... };
+}
 ```
 ## D
 Dependency inversion principle - Принцип инверсии зависимостей.
