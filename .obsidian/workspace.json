@@ -29,10 +29,30 @@
                 "mode": "source",
                 "source": false
               }
-            }
+            },
+            "group": "f1d963055dae0fed"
           }
         ],
         "currentTab": 1
+      },
+      {
+        "id": "bd74172ceb866377",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d830d5f50bd21beb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Programming principles/SOLID.md",
+                "mode": "preview",
+                "source": false
+              }
+            },
+            "group": "f1d963055dae0fed"
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -160,7 +180,7 @@
       "obsidian-day-and-night:Toggle Theme": false
     }
   },
-  "active": "b9d759621fa14c7a",
+  "active": "d830d5f50bd21beb",
   "lastOpenFiles": [
     "SQL/Commands.md",
     "_images/Pasted image 20240522223922.png",
