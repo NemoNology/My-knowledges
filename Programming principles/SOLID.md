@@ -32,7 +32,7 @@ Open-closed principle - Принцип открытости/закрытости
 public enum HtmlElementType { ... }
 public class HtmlElement
 {
-	public HtmnElementType Type { get; init; };
+	public HtmnElementType Type { get; init; }
 	...
 }
 public implicit extension HtmlElementExtension for HtmlElement
@@ -52,7 +52,7 @@ public implicit extension HtmlElementExtension for HtmlElement
 // Чтобы не нарушать принцип открытости/закрытости можно видоизменить класс `HtmlElement`, используя свойства `Tag` и `Icon`, вместо `Type`
 public class HtmlElement
 {
-	public HtmnElementType Type { get; init; };
+	public string Tag { get; init; }
 	...
 }
 ``` 
