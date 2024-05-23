@@ -81,6 +81,7 @@ public interface MegaPrinter
     void Print(string data);
 }
 
+// Using only `Scan` method
 public class Scaner: MegaPrinter 
 {
 	string Scan() { ... }
@@ -90,17 +91,28 @@ public class Scaner: MegaPrinter
 
 ...
 
-public class OnlyPrinter: Shape 
+// Using only `Print` method
+public class Printer: MegaPrinter 
 {
-	public void DrawCircle() { ... }
-	...
-	public void DrawTriangle() { ... }
+	string Scan() { ... }
+    void Fax(string data) { ... }
+    void Print(string data) { ... }
 }
 
 // Чтобы не нарушать принцип разделения интерфейса, необходимо не перегружать интерфейсы и соблюдать принцип единственной ответственности и абстракцию.
-public interface Shape
+public interface Scaner
 {
-	void DrawShape();
+	string Scan();
+}
+
+public interface Faxer
+{
+	void Fax(FaxEndPointstring data);
+}
+
+public interface Printer
+{
+    void Print(string data);
 }
 
 public class Circle: Shape
