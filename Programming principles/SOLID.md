@@ -69,7 +69,7 @@ Interface segregation principle - Принцип разделения интер
 > много интерфейсов, специально предназначенных для клиентов, лучше, чем один интерфейс общего назначения.
 ### Пример
 ```csharp
-// Нарушение принципа: в случае 
+// Нарушение принципа: в случае реализации интерфейса `Shape` классом `Circle`, классу придётся реализовывать все методы интерфейса.
 public interface Shape
 {
     void DrawCircle();
@@ -78,10 +78,11 @@ public interface Shape
 }
 public class Circle: Shape 
 {
-	void DrawCircle() { ... }
+	public void DrawCircle() { ... }
 	...
-	void DrawTriangle() { ... }
+	public void DrawTriangle() { ... }
 }
+// Чтобы не нарушать принцип разделения интерфейса,
 ```
 ## D
 Dependency inversion principle - Принцип инверсии зависимостей.
