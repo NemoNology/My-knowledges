@@ -77,7 +77,6 @@ Interface segregation principle - Принцип разделения интер
 public interface MegaPrinter
 {
     obj Scan();
-    void Fax(FaxEndPoint endPoint, obj data);
     void Print(obj data);
 }
 
@@ -85,7 +84,6 @@ public interface MegaPrinter
 public class Scaner: MegaPrinter 
 {
 	obj Scan() { ... }
-    void Fax(FaxEndPoint endPoint, obj data) { ... }
     void Print(obj data) { ... }
 }
 
@@ -93,7 +91,6 @@ public class Scaner: MegaPrinter
 public class Printer: MegaPrinter 
 {
 	obj Scan() { ... }
-    void Fax(FaxEndPoint endPoint, obj data) { ... }
     void Print(obj data) { ... }
 }
 
@@ -101,11 +98,6 @@ public class Printer: MegaPrinter
 public interface Scaner
 {
 	obj Scan();
-}
-
-public interface Faxer
-{
-	void Fax(FaxEndPoint endPoint, obj data);
 }
 
 public interface Printer
@@ -118,16 +110,15 @@ public class TextScaner: Scaner
 	obj Scan() { ... }
 }
 
-// Using only `Print` method
-public class TextFaxer: Faxer 
+public class TextPrinter: Printer 
 {
-	void Fax(FaxEndPoint endPoint, obj data) { ... }
+	void Print(obj data) { ... }
 }
 ```
 ## D
 Dependency inversion principle - Принцип инверсии зависимостей.
 > Зависимость на Абстракциях. Нет зависимости на что-то конкретное
-
+> + Модули верхних уровней не должны зависеть от модулей нижних уровней. Оба типа модулей должны зависеть от абстракций.
 
 # Ссылки
 - [Википедия - SOLID (программирование)](https://ru.wikipedia.org/wiki/SOLID_(%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5))
