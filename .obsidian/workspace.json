@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "b9d759621fa14c7a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Programming principles/SOLID.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SQL/Commands.md",
+                "file": "Programming principles/SOLID.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SQL/Commands.md",
+                "file": "Programming principles/SOLID.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SQL/Commands.md"
+                "file": "Programming principles/SOLID.md"
               }
             }
           }
@@ -147,11 +160,12 @@
       "obsidian-day-and-night:Toggle Theme": false
     }
   },
-  "active": "97a5960dcc17e0ab",
+  "active": "b9d759621fa14c7a",
   "lastOpenFiles": [
+    "SQL/Commands.md",
+    "Programming principles/SOLID.md",
     "Programming principles",
     "().md",
-    "SQL/Commands.md",
     "SQL/Pasted image 20240522223922.png",
     "SQL/Pasted image 20240522224515.png",
     "SQL/Pasted image 20240522224510.png",
