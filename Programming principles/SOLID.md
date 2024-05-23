@@ -10,13 +10,13 @@ Single responsibility principle - Принцип единственной отв
 public class Animal(string name)
 {
 	public string Name { get; set; } = name;
-	public void AddToDb(Db bd) { // ... }
+	public void AddToDb(Db bd) { ... }
 }
 // Чтобы не нарушать принцип единственной ответственности, стоит переменести метод `AddToDB` в другой класс
 public class DbController(Db db)
 {
 	public Db DB { get; set; } = db;
-	public void AddObjectToDb(object obj) { // ... }
+	public void AddObjectToDb(object obj) { ... }
 }
 ```
 ## O
@@ -29,20 +29,11 @@ Open-closed principle - Принцип открытости/закрытости
 
 ```csharp
 // Нарушение принципа: если мы захотим добавить новый HtmlElementType, то придётся модифицировать `HtmlElementType` и свойства `Tag` `Icon` в HtmlElementExtension;
-public enum HtmlElementType
+public enum HtmlElementType { ... }
+public class HtmlElement
 {
-	Custom,
-	Division,
-	Image,
-	Document
-}
-public class HtmlElement(HtmlElementType type,
-	Dictionary<string, string> attributes,
-	IEnumerable<HtmlElement> children)
-{
-	public HtmnElementType Type { get; init; } = type;
-	public Dictionary<string, string> Attributes { get; init; } = attributes;
-	public IEnumerable<HtmlElement> Children { get; init; } = children;
+	public HtmnElementType Type { get; init; };
+	...
 }
 public implicit extension HtmlElementExtension for HtmlElement
 {
@@ -50,8 +41,7 @@ public implicit extension HtmlElementExtension for HtmlElement
 		=> this.Type switch
 		{
 			Division => "div",
-			Image => "img",
-			Document => "hmtl",
+			...
 			_ => ""
 		}
 	public Icon Icon
