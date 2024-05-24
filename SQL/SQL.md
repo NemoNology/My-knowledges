@@ -38,10 +38,16 @@ decimal
 Date
 ('01.01.2024', 'dd.mm.yyyy')
 ```
-# Простые SQL-зарпосы
+# SQL-запросы
+## Create
+```sql
+CREATE 
+```
 ## Select
 ```sql
-SELECT [набор полей для выборки. Например student_id, register_d]
+SELECT [набор полей для выборки. Например student_id, register_date и т.п]
+FROM [имя_таблицы]
 ```
 # Ссылки
 - [YouTube - Максим Кухарь - Базовый курс по SQL для аналитиков и менеджеров](https://youtube.com/playlist?list=PLKl9v2TQvIkq4i_hZwZ1PmobxJSkIGwBf&si=isj-N83hn2N_WH4a)
+- [Хабр - # Памятка/шпаргалка по SQL](https://habr.com/ru/articles/564390/)

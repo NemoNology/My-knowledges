@@ -89,7 +89,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "0842cef98f04fe43",
@@ -168,7 +169,7 @@
       "obsidian-day-and-night:Toggle Theme": false
     }
   },
-  "active": "97a5960dcc17e0ab",
+  "active": "c3e6330cc6b4333e",
   "lastOpenFiles": [
     "SQL/Join.md",
     "SQL/SQL.md",
