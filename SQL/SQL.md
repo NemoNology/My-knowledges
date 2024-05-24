@@ -74,7 +74,7 @@ WHERE [логическое_выражение];
 -- Логическое выражение может быть как простым..
 WHERE Age = 21;
 -- .. так и сложным
-(MOD(Age, 2) = 0 OR Age in (1)) AND Name LIKE '%*%'
+(MOD(Age, 2) = 0 OR Age in (15, 19, 21)) AND Name NOT LIKE '%III'
 
 # Пример
 SELECT *
