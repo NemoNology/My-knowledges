@@ -41,7 +41,7 @@ Date
 # SQL-запросы
 ## Create
 ```sql
-CREATE 
+CREATE [тип_объекта: TABLE, DATABASE, INDEX, VIEW, PROCEDURE, TRIGGER и т.д.] имя_объекта
 ```
 ## Select
 ```sql
