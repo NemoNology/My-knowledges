@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SQL/Commands.md",
+                "file": "SQL/Индексация.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SQL/Commands.md",
+                "file": "SQL/Индексация.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SQL/Commands.md",
+                "file": "SQL/Индексация.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SQL/Commands.md"
+                "file": "SQL/Индексация.md"
               }
             }
           }
@@ -150,9 +150,10 @@
   },
   "active": "c3e6330cc6b4333e",
   "lastOpenFiles": [
-    "Programming principles/SOLID.md",
     "().md",
-    "SQL/Commands.md",
+    "SQL/Индексация.md",
+    "SQL/Join.md",
+    "Programming principles/SOLID.md",
     "_images/Pasted image 20240522223922.png",
     "_images",
     "Programming principles",
