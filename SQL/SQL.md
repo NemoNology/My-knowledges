@@ -64,7 +64,15 @@ FROM [имя_таблицы];
 SELECT * # * - спец. символ, подразумеващющий все варианты. В данном случае - показать все данные из таблицы.
 FROM Humans;
 ```
-##
+### Where
+Ключевое слово, используемое для фильтрации выборки (SELECT).
+Принимает логические выражения
+```sql
+# Пример
+SELECT *
+FROM Humans
+WHERE Age = 30
+```
 # Ссылки
 - [YouTube - Максим Кухарь - Базовый курс по SQL для аналитиков и менеджеров](https://youtube.com/playlist?list=PLKl9v2TQvIkq4i_hZwZ1PmobxJSkIGwBf&si=isj-N83hn2N_WH4a)
 - [Хабр - # Памятка/шпаргалка по SQL](https://habr.com/ru/articles/564390/)
