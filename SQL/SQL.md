@@ -15,17 +15,22 @@ char(5) от 'Охотился' -> Ошибка
 ### varchar(n)
 Не заполняет пробелами пустые символы.
 ```sql
-varchar([n])
+varchar([n]) var_name
 varchar(5) от 'Ухо'      -> 'Ухо'
 varchar(5) от 'Ушки'     -> 'Ушки'
 varchar(5) от 'Охота'    -> 'Охота'
 varchar(5) от 'Охотился' -> Ошибка
 ```
 ## Число
-### int
-### long
+### Integer
+### Long integer
+### Float
+### Double
+### Decimal
 ```sql
-by
+int
+l
+double
 ```
 # Ссылки
 - [YouTube - Максим Кухарь - Базовый курс по SQL для аналитиков и менеджеров](https://youtube.com/playlist?list=PLKl9v2TQvIkq4i_hZwZ1PmobxJSkIGwBf&si=isj-N83hn2N_WH4a)
