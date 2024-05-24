@@ -4,7 +4,26 @@
     "type": "split",
     "children": [
       {
-        "id": "a17edcad4345cf77",
+        "id": "a2c777888b3ddf5e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4ff54dfbd4f0d705",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SQL/Index - индексация.md",
+                "mode": "preview",
+                "source": false
+              }
+            },
+            "group": "6b09f35f544c15d4"
+          }
+        ]
+      },
+      {
+        "id": "9aaaac6bfd3134ca",
         "type": "tabs",
         "children": [
           {
@@ -13,11 +32,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SQL/Index.md",
+                "file": "SQL/Index - индексация.md",
                 "mode": "source",
                 "source": false
               }
-            }
+            },
+            "group": "6b09f35f544c15d4"
           }
         ]
       }
@@ -69,7 +89,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "0842cef98f04fe43",
@@ -85,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SQL/Index.md",
+                "file": "SQL/Index - индексация.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SQL/Index.md",
+                "file": "SQL/Index - индексация.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SQL/Index.md"
+                "file": "SQL/Index - индексация.md"
               }
             }
           }
@@ -148,10 +169,10 @@
       "obsidian-day-and-night:Toggle Theme": false
     }
   },
-  "active": "97a5960dcc17e0ab",
+  "active": "c3e6330cc6b4333e",
   "lastOpenFiles": [
     "SQL/Join.md",
-    "SQL/Index.md",
+    "SQL/Index - индексация.md",
     "().md",
     "Programming principles/SOLID.md",
     "_images/Pasted image 20240522223922.png",
