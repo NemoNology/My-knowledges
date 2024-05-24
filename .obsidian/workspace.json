@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SQL/Definition.md",
+                "file": "SQL/SQL.md",
                 "mode": "preview",
                 "source": false
               }
@@ -32,7 +32,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SQL/Definition.md",
+                "file": "SQL/SQL.md",
                 "mode": "source",
                 "source": false
               }
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SQL/Definition.md",
+                "file": "SQL/SQL.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SQL/Definition.md",
+                "file": "SQL/SQL.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SQL/Definition.md"
+                "file": "SQL/SQL.md"
               }
             }
           }
@@ -168,10 +168,10 @@
       "obsidian-day-and-night:Toggle Theme": false
     }
   },
-  "active": "c3e6330cc6b4333e",
+  "active": "97a5960dcc17e0ab",
   "lastOpenFiles": [
     "SQL/Join.md",
-    "SQL/Definition.md",
+    "SQL/SQL.md",
     "SQL/Index - индексация.md",
     "().md",
     "Programming principles/SOLID.md",
