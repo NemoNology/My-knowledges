@@ -4,40 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "5c8a7926b32baeb4",
+        "id": "a17edcad4345cf77",
         "type": "tabs",
         "children": [
           {
-            "id": "b9d759621fa14c7a",
+            "id": "c3e6330cc6b4333e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programming principles/SOLID.md",
+                "file": "SQL/Commands.md",
                 "mode": "source",
                 "source": false
               }
-            },
-            "group": "f1d963055dae0fed"
-          }
-        ]
-      },
-      {
-        "id": "bd74172ceb866377",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "d830d5f50bd21beb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Programming principles/SOLID.md",
-                "mode": "preview",
-                "source": false
-              }
-            },
-            "group": "f1d963055dae0fed"
+            }
           }
         ]
       }
@@ -89,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "0842cef98f04fe43",
@@ -106,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programming principles/SOLID.md",
+                "file": "SQL/Commands.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programming principles/SOLID.md",
+                "file": "SQL/Commands.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Programming principles/SOLID.md"
+                "file": "SQL/Commands.md"
               }
             }
           }
@@ -169,11 +148,11 @@
       "obsidian-day-and-night:Toggle Theme": false
     }
   },
-  "active": "b9d759621fa14c7a",
+  "active": "c3e6330cc6b4333e",
   "lastOpenFiles": [
+    "Programming principles/SOLID.md",
     "().md",
     "SQL/Commands.md",
-    "Programming principles/SOLID.md",
     "_images/Pasted image 20240522223922.png",
     "_images",
     "Programming principles",
