@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SQL/Table.md",
+                "file": "SQL/Index - индексация.md",
                 "mode": "preview",
                 "source": false
               }
@@ -32,7 +32,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SQL/Table.md",
+                "file": "SQL/Index - индексация.md",
                 "mode": "source",
                 "source": false
               }
@@ -89,8 +89,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "0842cef98f04fe43",
@@ -106,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SQL/Table.md",
+                "file": "SQL/Index - индексация.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SQL/Table.md",
+                "file": "SQL/Index - индексация.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SQL/Table.md"
+                "file": "SQL/Index - индексация.md"
               }
             }
           }
@@ -171,8 +170,8 @@
   },
   "active": "c3e6330cc6b4333e",
   "lastOpenFiles": [
+    "SQL/Definition.md",
     "SQL/Index - индексация.md",
-    "SQL/Table.md",
     "SQL/Join.md",
     "().md",
     "Programming principles/SOLID.md",
