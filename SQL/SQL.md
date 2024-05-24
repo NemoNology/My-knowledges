@@ -41,7 +41,13 @@ Date
 # SQL-запросы
 ## Create
 ```sql
-CREATE [тип_объекта: TABLE, DATABASE, INDEX, VIEW, PROCEDURE, TRIGGER и т.д.] имя_объекта
+CREATE [тип_объекта: TABLE, DATABASE, INDEX, VIEW, PROCEDURE, TRIGGER и т.д.] [имя_объекта] [парамеры];
+```
+### Table
+```sql
+CREATE TABLE имя_таблицы (
+
+);
 ```
 ## Select
 ```sql
