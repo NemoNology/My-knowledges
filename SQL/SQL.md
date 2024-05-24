@@ -46,11 +46,14 @@ CREATE [тип_объекта: TABLE, DATABASE, INDEX, VIEW, PROCEDURE, TRIGGER 
 ### Table
 ```sql
 CREATE TABLE имя_таблицы (
-	[столбцы таблицы]
+	[столбцы таблицы: имя_столбца тип_данных]
 );
 
 # Пример
-CREATE
+create table Humans (
+	Age int,
+	Name varchar(255)
+);
 ```
 ## Select
 ```sql
