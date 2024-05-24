@@ -4,10 +4,10 @@
 # Синтаксис
 
 ```sql
-TABLE1 <JOIN_TYPE> JOIN TABLE2 ON PARAMS;
+TABLE1 [JOIN_TYPE] JOIN TABLE2 ON PARAMS;
 ```
 
-# Типы `JOIN`
+# Типы
 
 `(INNER) JOIN` - возвращает результаты пересечения двух таблиц по заданным параметрам.  
 ![[Pasted image 20240522223922.png]]
