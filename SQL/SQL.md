@@ -40,6 +40,7 @@ Date
 ```
 # Запросы
 ## Create
+Позволяет создавать объекты
 ```sql
 CREATE [тип_объекта: TABLE, DATABASE, INDEX, VIEW, PROCEDURE, TRIGGER и т.д.] [имя_объекта] [парамеры];
 ```
@@ -54,6 +55,10 @@ create table Humans (
 	Age int,
 	Name varchar(255)
 );
+```
+## Insert
+Позволяет добавлять данные в объекты ()
+```sql
 ```
 ## Select
 ```sql
