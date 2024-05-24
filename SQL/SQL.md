@@ -8,9 +8,9 @@ n - количество символов в строке. `char` заполня
 ```sql
 char([n])
 char(5) от 'Ухо'      -> 'Ухо  '
-char(5) от 'Ушки'     -> 'Ушки  '
+char(5) от 'Ушки'     -> 'Ушки '
 char(5) от 'Охота'    -> 'Охота'
-char(5) от 'Охотился' -> Ошибка
+char(5) от 'Охотился' ->  Ошибка
 ```
 ### varchar(n)
 Не заполняет пробелами пустые символы.
@@ -19,7 +19,7 @@ varchar([n]) var_name
 varchar(5) от 'Ухо'      -> 'Ухо'
 varchar(5) от 'Ушки'     -> 'Ушки'
 varchar(5) от 'Охота'    -> 'Охота'
-varchar(5) от 'Охотился' -> Ошибка
+varchar(5) от 'Охотился' ->  Ошибка
 ```
 ## Число
 ### Integer
@@ -37,6 +37,11 @@ decimal
 ```sql
 Date
 ('01.01.2024', 'dd.mm.yyyy')
+```
+# Простые SQL-зарпосы
+## Select
+```sql
+SELECT [набор полей для выборки. Например student_id, register_d]
 ```
 # Ссылки
 - [YouTube - Максим Кухарь - Базовый курс по SQL для аналитиков и менеджеров](https://youtube.com/playlist?list=PLKl9v2TQvIkq4i_hZwZ1PmobxJSkIGwBf&si=isj-N83hn2N_WH4a)
