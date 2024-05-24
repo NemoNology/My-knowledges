@@ -68,10 +68,14 @@ FROM Humans;
 Ключевое слово, используемое для фильтрации выборки (SELECT).
 Принимает логические выражения
 ```sql
+SELECT ...
+FROM ...
+WHERE [логическое выражение]; # Оно может 
+
 # Пример
 SELECT *
 FROM Humans
-WHERE Age = 30
+WHERE Age = 30; # Также: Age > 20; Age <= 10; Name = 'Саша' и т.п.
 ```
 # Ссылки
 - [YouTube - Максим Кухарь - Базовый курс по SQL для аналитиков и менеджеров](https://youtube.com/playlist?list=PLKl9v2TQvIkq4i_hZwZ1PmobxJSkIGwBf&si=isj-N83hn2N_WH4a)
