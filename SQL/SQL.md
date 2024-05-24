@@ -59,11 +59,13 @@ create table Humans (
 ## Drop
 Позволяет удалять объекты;
 ```sql
-DROP [тип_объекта /* TABLE, DATABASE, INDEX, PROCEDURE и т.д.] [имя_объекта];
+DROP [тип_объекта: TABLE, DATABASE, INDEX, PROCEDURE и т.д.] [имя_объекта];
 ```
 ## Insert
-Позволяет добавлять данные в объекты (таблицы, БД)
+Позволяет добавлять данные в таблицы.
 ```sql
+INSERT INTO [имя_таблицы]
+VALUES ()
 ```
 ## Select
 ```sql
