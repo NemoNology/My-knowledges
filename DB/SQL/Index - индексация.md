@@ -3,7 +3,7 @@
 ## Создание индекса
 ```sql
 CREATE INDEX [index_name]
-ON [table_name] ([column_name]);
+ON [table_name] ([column(s)_name(s)]);
 ```
 ## Удаление индекса
 ```sql
