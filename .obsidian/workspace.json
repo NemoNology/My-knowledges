@@ -4,40 +4,40 @@
     "type": "split",
     "children": [
       {
-        "id": "a2c777888b3ddf5e",
+        "id": "8ff7209f2f1c0610",
         "type": "tabs",
         "children": [
           {
-            "id": "c3e6330cc6b4333e",
+            "id": "4ccda329e0b57dc7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DB/Other/MVCC.md",
+                "file": "DB/DBMSs/Firebird.md",
                 "mode": "source",
                 "source": false
               }
             },
-            "group": "4a384a515d16f3b9"
+            "group": "a098d9dd2523b2aa"
           }
         ]
       },
       {
-        "id": "d9ba9a7be21284b7",
+        "id": "a3bd61972b9d8830",
         "type": "tabs",
         "children": [
           {
-            "id": "73fa7283d0aea614",
+            "id": "739fd26ffd3a275c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DB/Other/MVCC.md",
-                "mode": "preview",
+                "file": "DB/DBMSs/Firebird.md",
+                "mode": "source",
                 "source": false
               }
             },
-            "group": "4a384a515d16f3b9"
+            "group": "a098d9dd2523b2aa"
           }
         ]
       }
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DB/Other/MVCC.md",
+                "file": "DB/DBMSs/Firebird.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DB/Other/MVCC.md",
+                "file": "DB/DBMSs/Firebird.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DB/Other/MVCC.md"
+                "file": "DB/DBMSs/Firebird.md"
               }
             }
           }
@@ -168,7 +168,7 @@
       "obsidian-day-and-night:Toggle Theme": false
     }
   },
-  "active": "c3e6330cc6b4333e",
+  "active": "4ccda329e0b57dc7",
   "lastOpenFiles": [
     "DB/DBMSs/Firebird.md",
     "DB/Other/MVCC.md",

@@ -1,8 +1,5 @@
 # Определения
 
-**Firebird** - свободная кроссплатформенная реляционная СУБД (РСУБД) [1].
+[**Firebird**](https://ru.wikipedia.org/wiki/Firebird) - свободная кроссплатформенная реляционная СУБД (РСУБД).
 
-Использует механизмы
-# Источники
-
-1. [Википедия - Firebird](https://ru.wikipedia.org/wiki/Firebird).
+Использует механизм [MVCC](https://ru.wikipedia.org/wiki/MVCC). Поддерживает 
